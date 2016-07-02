@@ -1,0 +1,48 @@
+body{
+  font:12px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#top h1{
+  color: #fff;
+}
+.top_right a{
+  font-size: 12px;
+}
+#menu .list-group-item{
+  background-color:#09192A;
+  border-radius: 0;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom:1px solid #1b2836;
+  display: block;
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+
+#menu a.list-group-item:hover, #menu a.list-group-item.active{
+  background-color: #225081;
+  color: #fff;
+}
+
+#menu a.list-group-item{
+  color: #fff;
+}
+
+#menu .sub-item{
+  padding-left: 3em;
+}
+#menu a.sub-item{
+  color: #aaa;
+  font-weight: normal;
+}
+
+#main{
+  padding: 20px;
+}
+.list-group-item{padding: 5px 15px;}
+
+.page_num span{ padding: 3px; }
+.page_num .num a{border: 1px solid $aaa!important; padding: 5px;}
+.page_num .active a{color: #000;}
+.page_num a.active{ color: #333; }
+H1 .small{ font-size: 16px; padding-left: 20px; }
